@@ -13,7 +13,5 @@ class Database:
         )
         self.cursor = self.conn.cursor()
 
-    def insert_data(self, df: pd.DataFrame):
-
 
 
